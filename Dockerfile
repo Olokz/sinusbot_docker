@@ -7,7 +7,7 @@ ENV ROOT_PASS="@hyujG667$r"
 RUN apt-get update
 RUN apt-get install -y x11vnc xinit xvfb libxcursor1 ca-certificates bzip2 curl libglib2.0-0 nano sudo screen
 RUN apt-get install -y libxml-parser-perl libpath-class-perl perl-modules screen pure-ftpd rsync sudo e2fsprogs subversion unzip
-RUN apt-get install -y libarchive-extract-perl libarchive-zip-perl
+RUN apt-get install -y libarchive-zip-perl
 RUN apt-get install -y ia32-libs
 RUN apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
